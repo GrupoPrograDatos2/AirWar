@@ -4,6 +4,7 @@
 #include <allegro5/allegro_primitives.h>
 #include<allegro5/allegro_ttf.h>
 #include<allegro5/allegro_font.h>
+#include "allegro5/allegro_image.h"
 
 #include "Player.h"
 #include "Bullet.h"
@@ -29,7 +30,7 @@ int main(void)
 
     //object variables
 
-    Player player("Jugador1");
+
     Bullet bullets[5];
     Bullet bullet(bullets, NUM_BULLETS);
     Enemy enemies[7];
@@ -41,6 +42,7 @@ int main(void)
     ALLEGRO_EVENT_QUEUE *eventQueue;
     ALLEGRO_TIMER *timer;
     ALLEGRO_FONT *font18;
+    ALLEGRO_BITMAP *playerImage;
 
     //Initialization Functions
 
@@ -61,10 +63,17 @@ int main(void)
     al_install_keyboard();
     al_init_font_addon();
     al_init_ttf_addon();
+    al_init_image_addon();
 
 
     eventQueue = al_create_event_queue();
     timer = al_create_timer(1.0/FPS);
+
+    playerImage = al_load_bitmap("player.png");
+    al_convert_mask_to_alpha(playerImage, al_map_rgb(255,0,255));
+
+
+    Player player("Jugador1", playerImage);
 
 
     font18 = al_load_font("SHPinscher-Regular.otf", 24, 0);
@@ -179,7 +188,7 @@ int main(void)
     al_destroy_display(display);
     al_destroy_event_queue(eventQueue);
     //al_destroy_timer(timer);
-    //al_destroy_bitmap(image);
+    al_destroy_bitmap(playerImage);
     //al_destroy_font(font);
 
 

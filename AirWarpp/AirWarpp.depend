@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1491564866 source:d:\documents\airwarpp\src\main.cpp
+1491603617 source:d:\documents\airwarpp\src\main.cpp
 	"main.h"
 	"objects.h"
 	<allegro5/allegro.h>
 	<allegro5/allegro_primitives.h>
 	<allegro5/allegro_ttf.h>
 	<allegro5/allegro_font.h>
+	"allegro5/allegro_image.h"
 	"Player.h"
 	"Bullet.h"
 	"Enemy.h"
@@ -243,10 +244,12 @@
 
 1491542437 d:\documents\airwarpp\include\objects.h
 
-1491564887 d:\documents\airwarpp\include\player.h
+1491600924 d:\documents\airwarpp\include\player.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
 	<string>
 
-1491562101 source:d:\documents\airwarpp\src\player.cpp
+1491604460 source:d:\documents\airwarpp\src\player.cpp
 	"Player.h"
 	"objects.h"
 	<allegro5/allegro.h>
@@ -268,7 +271,7 @@
 	<allegro5/allegro.h>
 	<allegro5/allegro_primitives.h>
 
-1491547515 d:\documents\airwarpp\include\enemy.h
+1491600909 d:\documents\airwarpp\include\enemy.h
 
 1491564624 source:d:\documents\airwarpp\src\enemylist.cpp
 	"EnemyList.h"
@@ -288,4 +291,13 @@
 
 1372649932 d:\downloads\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_font.h
 	"allegro5/allegro.h"
+
+1491597539 source:d:\documents\airwarpp\src\explosion.cpp
+	"Explosion.h"
+
+1491600930 d:\documents\airwarpp\include\explosion.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1362349100 d:\downloads\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
 

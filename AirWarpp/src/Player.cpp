@@ -3,15 +3,29 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
 
-Player::Player(string id) //Constructor
+Player::Player(string id, ALLEGRO_BITMAP *pimage) //Constructor
 {
     score = 0;
     x = WIDTH/2;
     y = HEIGHT-40;
     lives = 3;
-    speed = 7;
+    speed = 4;
     boundx = 6;
     boundy = 7;
+
+
+    maxFrame = 3;
+    curFrame = 0;
+    frameCount = 0;
+    frameDelay = 50;
+    frameWidth = 75;
+    frameHeight = 125;
+    animationColumns = 3;
+    animationDirection = 1;
+
+    animationRow = 1;
+
+    image = pimage;
 
 }
 
@@ -24,7 +38,12 @@ Player::~Player() //Destructor
 void Player::Draw()
 {
 
-  al_draw_filled_rectangle(x, y, x+20, y+20, al_map_rgb(0,255,0));
+  //al_draw_filled_rectangle(x, y, x+20, y+20, al_map_rgb(0,255,0));
+
+  int fx = (curFrame % animationColumns) * frameWidth;
+  int fy = (animationRow * frameHeight-50)-74;
+
+  al_draw_bitmap_region(image, fx, fy, frameWidth, frameHeight, x - frameWidth/2, (y - frameHeight/2), 0);
 }
 
 void Player::MoveLeft()

@@ -27,6 +27,15 @@ class Enemy
         int GetBoundx();
         int GetBoundy();
 
+        int maxFrame;
+        int curFrame;
+        int frameCount;
+        int frameDelay;
+        int frameWidth;
+        int frameHeight;
+        int animationColumns;
+        int animationDirection;
+
 
     protected:
 
