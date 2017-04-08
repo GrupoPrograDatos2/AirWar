@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1491483673 source:/home/zeph/Desktop/C++ Projects/Builder/main.cpp
+	<iostream>
+	<time.h>
+	<algorithm>
+	<stdlib.h>
+
