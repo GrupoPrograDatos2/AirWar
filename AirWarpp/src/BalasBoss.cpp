@@ -11,7 +11,7 @@ BalasBoss::BalasBoss()
     //ctor
 }
 
-void BalasBoss::UpdateBullet(BalasBoss bullet[], int size)
+void BalasBoss::UpdateBullet(BalasBoss bullet[], int size)//Le otorga más balas al boss
 {
     for(int i = 0; i < size; i++)
     {
@@ -25,7 +25,7 @@ void BalasBoss::UpdateBullet(BalasBoss bullet[], int size)
     }
 }
 
-void BalasBoss::DrawBullet(BalasBoss bullet[], int size)
+void BalasBoss::DrawBullet(BalasBoss bullet[], int size)//dibuja las balas del boss
 {
     for(int i = 0; i < size; i++)
     {
@@ -34,7 +34,7 @@ void BalasBoss::DrawBullet(BalasBoss bullet[], int size)
     }
 }
 
-void BalasBoss::ColisionB(BalasBoss bullet[], int size, Player &player)
+void BalasBoss::ColisionB(BalasBoss bullet[], int size, Player &player)//Revisa si las balas del boss le dieron al jugador
 {
     for(int i = 0; i < size; i++)
     {
@@ -46,14 +46,14 @@ void BalasBoss::ColisionB(BalasBoss bullet[], int size, Player &player)
                bullet[i].GetY() < player.GetY() + player.GetBoundy() &&
                bullet[i].GetY() > player.GetY() - player.GetBoundy())
            {
-               player.lives--;
+               player.lives--;//Si es así se le quita una vida al jugador
 
            }
         }
     }
 }
 
-void BalasBoss::Disparar(BalasBoss bullet[], int size)
+void BalasBoss::Disparar(BalasBoss bullet[], int size)//Dispara las balas del boss
 {
     for(int i = 0; i < size; i++)
     {
