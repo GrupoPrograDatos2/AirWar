@@ -38,6 +38,8 @@
 			<Add option="-Wall" />
 			<Add directory="../../Downloads/allegro-5.0.10-mingw-4.7.0/include" />
 		</Compiler>
+		<Unit filename="include/BalasBoss.h" />
+		<Unit filename="include/Boss.h" />
 		<Unit filename="include/Bullet.h" />
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/EnemyList.h" />
@@ -46,6 +48,8 @@
 		<Unit filename="include/objects.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="src/BalasBoss.cpp" />
+		<Unit filename="src/Boss.cpp" />
 		<Unit filename="src/Bullet.cpp" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/EnemyList.cpp" />

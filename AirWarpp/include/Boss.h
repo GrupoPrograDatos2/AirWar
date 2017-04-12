@@ -32,4 +32,3 @@ class Boss
 };
 
 #endif // BOSS_H
-
