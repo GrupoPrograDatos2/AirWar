@@ -1,6 +1,5 @@
 #include "BalasBoss.h"
 #include "Player.h"
-#include "Boss.h"
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
 #include <stdint.h>
@@ -35,7 +34,7 @@ void BalasBoss::DrawBullet(BalasBoss bullet[], int size)
     }
 }
 
-void BalasBoss::Colision(BalasBoss bullet[], int size, Player &player,Boss &boss)
+void BalasBoss::ColisionB(BalasBoss bullet[], int size, Player &player)
 {
     for(int i = 0; i < size; i++)
     {
@@ -48,21 +47,18 @@ void BalasBoss::Colision(BalasBoss bullet[], int size, Player &player,Boss &boss
                bullet[i].GetY() > player.GetY() - player.GetBoundy())
            {
                player.lives--;
-               boss.vida--;
 
            }
         }
     }
 }
 
-void BalasBoss::Disparar(BalasBoss bullet[], int size,Boss &boss)
+void BalasBoss::Disparar(BalasBoss bullet[], int size)
 {
     for(int i = 0; i < size; i++)
     {
         if (!bullet[i].activa)
         {
-            bullet[i].y = boss.getY();
-            bullet[i].x = boss.getX();
             bullet[i].activa = true;
             break;
         }

@@ -1,7 +1,6 @@
 #ifndef BALASBOSS_H
 #define BALASBOSS_H
 #include "Player.h"
-#include "Boss.h"
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
 #include <stdint.h>
@@ -25,8 +24,8 @@ class BalasBoss
 
     void UpdateBullet(BalasBoss bullet[], int size);
     void DrawBullet(BalasBoss bullet[], int size);
-    void Colision(BalasBoss bullet[], int size, Player &player,Boss &boss);
-    void Disparar(BalasBoss bullet[], int size,Boss &boss);
+    void ColisionB(BalasBoss bullet[], int size, Player &player);
+    void Disparar(BalasBoss bullet[], int size);
     int GetX();
     int GetY();
 
