@@ -301,3 +301,61 @@
 
 1362349100 d:\downloads\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
 
+1492010707 source:c:\users\usuario\desktop\airwar\airwarpp\src\bullet.cpp
+	"Bullet.h"
+	"objects.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1492010707 c:\users\usuario\desktop\airwar\airwarpp\include\bullet.h
+	"Player.h"
+	"Enemy.h"
+
+1492010707 c:\users\usuario\desktop\airwar\airwarpp\include\player.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<string>
+
+1492010707 c:\users\usuario\desktop\airwar\airwarpp\include\enemy.h
+
+1492010707 c:\users\usuario\desktop\airwar\airwarpp\include\objects.h
+
+1492010707 source:c:\users\usuario\desktop\airwar\airwarpp\src\enemy.cpp
+	"Enemy.h"
+	"objects.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1492010707 source:c:\users\usuario\desktop\airwar\airwarpp\src\enemylist.cpp
+	"EnemyList.h"
+	"objects.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<iostream>
+	"Enemy.h"
+
+1492010707 c:\users\usuario\desktop\airwar\airwarpp\include\enemylist.h
+	"Enemy.h"
+	"Player.h"
+
+1492010707 source:c:\users\usuario\desktop\airwar\airwarpp\src\main.cpp
+	"main.h"
+	"objects.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	"allegro5/allegro_image.h"
+	"Player.h"
+	"Bullet.h"
+	"Enemy.h"
+	"EnemyList.h"
+
+1492010707 c:\users\usuario\desktop\airwar\airwarpp\include\main.h
+
+1492010707 source:c:\users\usuario\desktop\airwar\airwarpp\src\player.cpp
+	"Player.h"
+	"objects.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+

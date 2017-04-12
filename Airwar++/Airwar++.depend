@@ -248,3 +248,14 @@
 1372649932 d:\downloads\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_primitives.h
 	<allegro5/allegro.h>
 
+1492010707 source:c:\users\usuario\desktop\airwar\airwar++\src\main.cpp
+	"main.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<iostream>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_primitives.h>
+
+1492010707 c:\users\usuario\desktop\airwar\airwar++\include\main.h
+

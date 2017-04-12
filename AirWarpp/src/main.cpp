@@ -10,6 +10,7 @@
 #include "Bullet.h"
 #include "Enemy.h"
 #include "EnemyList.h"
+#include "Boss.h"
 
 //Variables Globales
 
