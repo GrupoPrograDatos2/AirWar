@@ -10,10 +10,8 @@ using namespace std;
 main()
 {
     Lista lst;
-    lst.Insertar(Jet.h);
-    lst.Insertar(Kamikaze.h);
     lst.Insertar (Torre.h);
-    lst.Insertar (Bombardero.h);
+    
 
 }
 
