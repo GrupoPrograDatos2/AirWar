@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1471652316 source:c:\users\josué\desktop\nueva carpeta (3)\linkedstack\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1471650286 c:\users\josué\desktop\nueva carpeta (3)\linkedstack\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1471650286 c:\users\josué\desktop\nueva carpeta (3)\linkedstack\include\node.h
+	<cstddef>
+
+1471652292 source:c:\users\josué\desktop\nueva carpeta (3)\linkedstack\src\linkedstack.cpp
+	"LinkedStack.h"
+	"LinkedList.h"
+
+1471652052 c:\users\josué\desktop\nueva carpeta (3)\linkedstack\include\linkedstack.h
+	"LinkedList.h"
+
+1471650286 source:c:\users\josué\desktop\nueva carpeta (3)\linkedstack\src\node.cpp
+	"Node.h"
+	<cstddef>
+
+1471652292 source:c:\users\josué\desktop\nueva carpeta (3)\linkedstack\main.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1471666321 source:c:\users\josué\desktop\nueva carpeta\linkedstack\main.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1471666108 c:\users\josué\desktop\nueva carpeta\linkedstack\include\linkedstack.h
+	"LinkedList.h"
+
+1471650286 c:\users\josué\desktop\nueva carpeta\linkedstack\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1471650286 c:\users\josué\desktop\nueva carpeta\linkedstack\include\node.h
+	<cstddef>
+
+1471652380 source:c:\users\josué\desktop\nueva carpeta\linkedstack\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1471650286 source:c:\users\josué\desktop\nueva carpeta\linkedstack\src\node.cpp
+	"Node.h"
+	<cstddef>
+
+1471666157 source:c:\users\josué\desktop\nueva carpeta\linkedstack\src\linkedstack.cpp
+	"LinkedStack.h"
+	"LinkedList.h"
+	<iostream>
+
+1471666321 source:c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\main.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1471666108 c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\include\linkedstack.h
+	"LinkedList.h"
+
+1471650286 c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1471650286 c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\include\node.h
+	<cstddef>
+
+1471667624 source:c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\src\linkedstack.cpp
+	"LinkedStack.h"
+	"LinkedList.h"
+	<iostream>
+
+1471667313 source:c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1471667312 source:c:\users\josué\desktop\nueva carpeta\linkedstack\linkedstack\src\node.cpp
+	"Node.h"
+	<cstddef>
+
