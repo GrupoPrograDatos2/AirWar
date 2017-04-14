@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1491799777 source:c:\users\estadm\desktop\c++ projects\builder2.0\main.cpp
+	<iostream>
+	"Nave.h"
+	"NavePlano.h"
+	"NaveBuilder.h"
+	"JetNave.h"
+	"AirArmy.h"
+
+1491864405 source:c:\users\estadm\desktop\c++ projects\builder2.0\src\jetnave.cpp
+	<iostream>
+	<time.h>
+	<algorithm>
+	<stdlib.h>
+	"JetNave.h"
+	"Nave.h"
+
+1491864342 c:\users\estadm\desktop\c++ projects\builder2.0\include\jetnave.h
+	"NaveBuilder.h"
+	"Nave.h"
+
+1491865812 c:\users\estadm\desktop\c++ projects\builder2.0\include\navebuilder.h
+	"Nave.h"
+
+1491864356 c:\users\estadm\desktop\c++ projects\builder2.0\include\nave.h
+	<string>
+	"NavePlano.h"
+
+1491865829 c:\users\estadm\desktop\c++ projects\builder2.0\include\naveplano.h
+
+1491864471 source:c:\users\estadm\desktop\c++ projects\builder2.0\src\nave.cpp
+	"Nave.h"
+	"NavePlano.h"
+
+1491797961 source:c:\users\estadm\desktop\c++ projects\builder2.0\src\navebuilder.cpp
+	"NaveBuilder.h"
+	"Nave.h"
+
+1491794910 source:c:\users\estadm\desktop\c++ projects\builder2.0\src\naveplano.cpp
+	"NavePlano.h"
+
+1491864368 source:c:\users\estadm\desktop\c++ projects\builder2.0\src\airarmy.cpp
+	"AirArmy.h"
+	"NaveBuilder.h"
+	"Nave.h"
+
+1491800115 c:\users\estadm\desktop\c++ projects\builder2.0\include\airarmy.h
+	"NaveBuilder.h"
+
