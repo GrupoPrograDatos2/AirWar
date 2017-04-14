@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1491473890 source:/home/zeph/Desktop/C++ Projects/Cola/main.cpp
-	<iostream>
-	<stdlib.h>
-	<time.h>
-	<algorithm>
-
