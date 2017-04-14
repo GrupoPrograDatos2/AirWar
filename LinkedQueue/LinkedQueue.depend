@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\curso\desktop\linkedqueue\main.cpp
+	<iostream>
+
+1471444695 source:c:\users\curso\desktop\linkedqueue\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1471444691 c:\users\curso\desktop\linkedqueue\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1471443426 c:\users\curso\desktop\linkedqueue\include\node.h
+	<cstddef>
+
+1471443426 source:c:\users\curso\desktop\linkedqueue\src\node.cpp
+	"Node.h"
+	<cstddef>
+
+1471444691 source:c:\users\curso\desktop\linkedqueue\src\linkedqueue.cpp
+	"LinkedQueue.h"
+	"LinkedList.h"
+
+1471444691 c:\users\curso\desktop\linkedqueue\include\linkedqueue.h
+	"LinkedList.h"
+
+1471544123 source:c:\users\josué\desktop\linkedqueue\main.cpp
+	<iostream>
+	"LinkedQueue.h"
+
+1471543696 source:c:\users\josué\desktop\linkedqueue\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1471543357 c:\users\josué\desktop\linkedqueue\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1471532531 c:\users\josué\desktop\linkedqueue\include\node.h
+	<cstddef>
+
+1471543766 source:c:\users\josué\desktop\linkedqueue\src\linkedqueue.cpp
+	"LinkedQueue.h"
+	"LinkedList.h"
+
+1471541716 c:\users\josué\desktop\linkedqueue\include\linkedqueue.h
+	"LinkedList.h"
+
+1471443428 source:c:\users\josué\desktop\linkedqueue\src\node.cpp
+	"Node.h"
+	<cstddef>
+
+1471544123 source:c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\main.cpp
+	<iostream>
+	"LinkedQueue.h"
+
+1471541716 c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\include\linkedqueue.h
+	"LinkedList.h"
+
+1471543357 c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1471532531 c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\include\node.h
+	<cstddef>
+
+1471578503 source:c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1471578503 source:c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\src\linkedqueue.cpp
+	"LinkedQueue.h"
+	"LinkedList.h"
+
+1471443428 source:c:\users\josué\desktop\ic-2001_lab#05\linkedqueue\linkedqueue\src\node.cpp
+	"Node.h"
+	<cstddef>
+
+1492067636 source:c:\users\josué\desktop\linkedqueue\linkedqueue\main.cpp
+	<iostream>
+	"LinkedQueue.h"
+
+1492067631 c:\users\josué\desktop\linkedqueue\linkedqueue\include\linkedqueue.h
+	"Node.h"
+
+1471546957 c:\users\josué\desktop\linkedqueue\linkedqueue\include\linkedlist.h
+	"Node.h"
+	<cstddef>
+
+1492067945 c:\users\josué\desktop\linkedqueue\linkedqueue\include\node.h
+	<cstddef>
+
+1471582103 source:c:\users\josué\desktop\linkedqueue\linkedqueue\src\linkedlist.cpp
+	"LinkedList.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1492067945 source:c:\users\josué\desktop\linkedqueue\linkedqueue\src\node.cpp
+	"Node.h"
+	<cstddef>
+
+1492067664 source:c:\users\josué\desktop\linkedqueue\linkedqueue\src\linkedqueue.cpp
+	"LinkedQueue.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+
+1492067636 source:c:\users\josué\dropbox\roy\linkedqueue\main.cpp
+	<iostream>
+	"LinkedQueue.h"
+
+1492069232 c:\users\josué\dropbox\roy\linkedqueue\include\linkedqueue.h
+	"Node.h"
+
+1492069232 c:\users\josué\dropbox\roy\linkedqueue\include\node.h
+	<cstddef>
+
+1492129491 source:c:\users\estadm\desktop\c++ projects\linkedqueue\main.cpp
+	<iostream>
+	"LinkedQueue.h"
+	"Node.h"
+
+1492129740 c:\users\estadm\desktop\c++ projects\linkedqueue\include\linkedqueue.h
+	"Node.h"
+
+1492130029 c:\users\estadm\desktop\c++ projects\linkedqueue\include\node.h
+	<cstddef>
+
+1492131200 source:c:\users\estadm\desktop\c++ projects\linkedqueue\src\linkedqueue.cpp
+	"LinkedQueue.h"
+	<cstddef>
+	<iostream>
+	<stdexcept>
+	"Node.h"
+
+1492130110 source:c:\users\estadm\desktop\c++ projects\linkedqueue\src\node.cpp
+	"Node.h"
+	<cstddef>
+
