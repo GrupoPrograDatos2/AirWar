@@ -15,6 +15,10 @@ Player::Player(string id, ALLEGRO_BITMAP *pimage, ALLEGRO_BITMAP *pexpimage, ALL
     boundx = al_get_bitmap_width(pimage);
     boundy = al_get_bitmap_height(pimage);
 
+    escudo=false;
+    misiles=false;
+    laser=false;
+
 
 
     image = pimage;

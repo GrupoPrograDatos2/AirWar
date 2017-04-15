@@ -42,6 +42,10 @@ class Player
         int eframeHeight;
         int eframeWidth;
 
+        bool escudo;
+        bool laser;
+        bool misiles;
+
         ALLEGRO_BITMAP *image;
         ALLEGRO_BITMAP *expimage;
         ALLEGRO_SAMPLE *expsound;
