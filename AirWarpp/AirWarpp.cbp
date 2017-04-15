@@ -39,23 +39,27 @@
 			<Add directory="../../../Desktop/allegro-5.0.10-mingw-4.7.0/include" />
 		</Compiler>
 		<Unit filename="include/Background.h" />
+		<Unit filename="include/BalasBoss.h" />
 		<Unit filename="include/Boss.h" />
 		<Unit filename="include/Bullet.h" />
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/EnemyList.h" />
 		<Unit filename="include/Explosion.h" />
 		<Unit filename="include/Player.h" />
+		<Unit filename="include/Poderes.h" />
 		<Unit filename="include/main.h" />
 		<Unit filename="include/objects.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="src/Background.cpp" />
+		<Unit filename="src/BalasBoss.cpp" />
 		<Unit filename="src/Boss.cpp" />
 		<Unit filename="src/Bullet.cpp" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/EnemyList.cpp" />
 		<Unit filename="src/Explosion.cpp" />
 		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Poderes.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
