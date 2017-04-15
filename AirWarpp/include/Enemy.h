@@ -1,5 +1,10 @@
 #ifndef ENEMY_H
 #define ENEMY_H
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_primitives.h>
+#include "allegro5/allegro_image.h"
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_acodec.h>
 
 
 class Enemy
@@ -18,6 +23,7 @@ class Enemy
         void SetLive(bool plive);
         void SetBoundx(int x);
         void SetBoundy(int y);
+        void SetImage(ALLEGRO_BITMAP *pimage, ALLEGRO_BITMAP *pexpimage);
 
         int GetID();
         int GetX();
@@ -31,11 +37,14 @@ class Enemy
         int curFrame;
         int frameCount;
         int frameDelay;
-        int frameWidth;
-        int frameHeight;
-        int animationColumns;
-        int animationDirection;
+        int eframeWidth;
+        int eframeHeight;
 
+        bool explode;
+
+        ALLEGRO_SAMPLE *expsound;
+        ALLEGRO_BITMAP *image;
+        ALLEGRO_BITMAP *expimage;
 
     protected:
 

@@ -2,10 +2,14 @@
 #include "objects.h"
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
+#include <allegro5/allegro_image.h>
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_acodec.h>
+
 
 Enemy::Enemy()
 {
-
+    explode = false;
 }
 
 Enemy::~Enemy()
@@ -17,12 +21,44 @@ Enemy::~Enemy()
 
 void Enemy::UpdateEnemy()
 {
+    if (explode == true)
+    {
+
+        if(++frameCount>= frameDelay)
+            {
+                curFrame += 1;
+                if (curFrame ==1) al_play_sample(expsound, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE, NULL);
+
+                if(curFrame >= maxFrame)
+                {
+                    curFrame =0;
+
+                    live = false;
+                    explode = false;
+
+
+                    speed = 4;
+                }
+                frameCount = 0;
+
+            }
+    }
     y+= speed;
 }
 
 void Enemy::DrawEnemy()
 {
-    al_draw_filled_circle(x, y, 20, al_map_rgb(255,0,0));
+    if(explode == true)
+    {
+        speed = 0;
+        int fx = (curFrame) * eframeWidth;
+
+
+        al_draw_bitmap_region(expimage, fx, 0, eframeWidth, eframeHeight, x+20 - eframeWidth/2, y+10 - eframeHeight/2, 0);
+
+    }
+    else
+        al_draw_bitmap(image, x, y, 0);
 
 }
 
@@ -71,7 +107,11 @@ void Enemy::SetBoundy(int py)
     boundy = py;
 }
 
-
+void Enemy::SetImage(ALLEGRO_BITMAP *pimage, ALLEGRO_BITMAP *pexpimage)
+{
+    image = pimage;
+    expimage = pexpimage;
+}
 
 
 

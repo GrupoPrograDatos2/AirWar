@@ -3,11 +3,16 @@
 
 #include "Enemy.h"
 #include "Player.h"
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_primitives.h>
+#include "allegro5/allegro_image.h"
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_acodec.h>
 
 class EnemyList
 {
     public:
-        EnemyList(Enemy enemies[], int size);
+        EnemyList(Enemy enemies[], int size, ALLEGRO_BITMAP *pimage, ALLEGRO_BITMAP *pexpimage, ALLEGRO_SAMPLE *pexpsound);
         virtual ~EnemyList();
 
         void DrawEnemy(Enemy enemies[], int size);

@@ -35,8 +35,8 @@ void Bullet::FireBullet(Bullet bullet[], int size, Player player)
     {
         if (!bullet[i].live)
         {
-            bullet[i].y = player.GetY();
-            bullet[i].x = player.GetX();
+            bullet[i].y = player.GetY()+10;
+            bullet[i].x = player.GetX()+22;
             bullet[i].live = true;
             break;
         }
@@ -59,7 +59,7 @@ void Bullet::UpdateBullet(Bullet bullet[], int size)
 
 
 
-void Bullet::CollideBullet(Bullet bullet[], int bSize, Enemy enemies[], int eSize, Player &player)
+void Bullet::CollideBullet(Bullet bullet[], int bSize, Enemy enemies[], int eSize, Player &player /*Explosion explosions[], int exSize*/)
 {
     for(int i = 0; i < bSize; i++)
     {
@@ -75,9 +75,12 @@ void Bullet::CollideBullet(Bullet bullet[], int bSize, Enemy enemies[], int eSiz
                       bullet[i].x < (enemies[j].GetX() + enemies[j].GetBoundx()))
                    {
                        bullet[i].live = false;
-                       enemies[j].SetLive(false);
+                       enemies[j].explode = true;
 
                        player.score++;
+
+
+
                    }
 
                 }

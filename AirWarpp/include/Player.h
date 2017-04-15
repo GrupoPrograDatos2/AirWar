@@ -2,6 +2,9 @@
 #define PLAYER_H
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
+#include "allegro5/allegro_image.h"
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_acodec.h>
 
 #include <string>
 
@@ -12,11 +15,9 @@ using namespace std;
 class Player
 {
     public:
-        Player(string, ALLEGRO_BITMAP *pimage);
+        Player(string id, ALLEGRO_BITMAP *pimage, ALLEGRO_BITMAP *pexpimage, ALLEGRO_SAMPLE *pexpsound);
 
         void Draw();
-        void MoveUp();
-        void MoveDown();
         void MoveLeft();
         void MoveRight();
 
@@ -26,22 +27,25 @@ class Player
         int GetBoundy();
         void SetLives(int plives);
         int GetLives();
+        void Update();
 
         int lives;
         int score;
 
-        int maxFrame;
-        int curFrame;
-        int frameCount;
-        int frameDelay;
         int frameWidth;
         int frameHeight;
-        int animationColumns;
-        int animationDirection;
 
-        int animationRow;
+        int maxFrame;
+        int curFrame;
+        int frameDelay;
+        int frameCount;
+        int eframeHeight;
+        int eframeWidth;
 
         ALLEGRO_BITMAP *image;
+        ALLEGRO_BITMAP *expimage;
+        ALLEGRO_SAMPLE *expsound;
+        bool live;
 
 
         ~Player();
