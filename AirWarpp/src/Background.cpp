@@ -32,7 +32,7 @@ Background::~Background()
 void Background::UpdateBackground()
 {
     y += velY *dirY;
-    if(y + height <= 0){
+    if(y >= height){
         y = 0;
     }
 
@@ -42,6 +42,7 @@ void Background::UpdateBackground()
 void Background::DrawBackground()
 {
     al_draw_bitmap(image, x, y, 0);
+    al_draw_bitmap(image, x, y-height, 0);
 
 }
 
